@@ -9,7 +9,7 @@ orbs:
 jobs:
   install_test:
     executor: node/default
-    working_directory: ~/mini-minecraft-app/src
+    working_directory: ~/.
     steps:
         - checkout
         - run: 
