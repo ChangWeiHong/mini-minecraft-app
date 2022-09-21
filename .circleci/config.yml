@@ -14,12 +14,6 @@ jobs:
         - run: 
             command: npm install
         - run:
-            command: pwd
-        - run:
-            command: ls -la
-        - run:
-            command: cd src && ls -la
-        - run:
             command: npm run test
 
 
