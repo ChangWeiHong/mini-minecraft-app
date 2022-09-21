@@ -9,7 +9,6 @@ orbs:
 jobs:
   install_test:
     executor: node/default
-    working_directory: ~/project/src
     steps:
         - checkout
         - run: 
