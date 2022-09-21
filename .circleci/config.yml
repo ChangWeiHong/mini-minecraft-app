@@ -18,9 +18,7 @@ jobs:
         - run:
             command: ls -la
         - run:
-            command: cd src
-        - run:
-            command: ls -la    
+            command: cd src && ls -la
         - run:
             command: npm run test
 
