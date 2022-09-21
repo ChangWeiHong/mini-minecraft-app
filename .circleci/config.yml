@@ -7,14 +7,14 @@ orbs:
   node: circleci/node@4.7
 
 jobs:
-  install_run:
+  install_run_test:
     executor: node/default
     steps:
         - checkout
         - run: 
             command: npm install && npm start
         - run:
-            command: circleci-agent step halt
+            command: npm test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -22,4 +22,4 @@ workflows:
   work#1: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
-      - install_run
+      - install_run_test
