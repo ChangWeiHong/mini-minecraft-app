@@ -10,9 +10,8 @@ jobs:
   install_test:
     executor: node/default
     steps:
-        - checkout
         - run: 
-            command: npm install && npm test a q
+            command: npm install
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
