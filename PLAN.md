@@ -4,6 +4,7 @@ Please do the tasks follow the order.
 Check out a new branch for every feature you work on. Then, create pull request after your works finished and push.
 
 ## [Wei Hong](https://github.com/ChangWeiHong)
+- [] CircleCI
 - [] Boilerplate
 - [] Keyboard inputs
 - [] Player
@@ -12,7 +13,6 @@ Check out a new branch for every feature you work on. Then, create pull request 
 - [] Removing cubes
 - [] Cube type selector
 - [] Build a house
-- [] CircleCI
 
 ## [Kai Zhen](https://github.com/KaiZhen97)
 - [] Sky
