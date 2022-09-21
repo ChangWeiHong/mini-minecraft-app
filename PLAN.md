@@ -4,8 +4,8 @@ Please do the tasks follow the order.
 Check out a new branch for every feature you work on. Then, create pull request after your works finished and push.
 
 ## [Wei Hong](https://github.com/ChangWeiHong)
-- [] CircleCI
-- [] Boilerplate
+- [x] CircleCI
+- [x] Boilerplate
 - [] Keyboard inputs
 - [] Player
 - [] First person view
