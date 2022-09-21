@@ -13,11 +13,7 @@ jobs:
         - run: 
             command: npm install
         - run:
-            command: npm run test
-        - run:
-            command: a
-        - run:
-            command: q
+            command: npm test
 
 
 # Invoke jobs via workflows
