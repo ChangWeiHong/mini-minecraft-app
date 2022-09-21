@@ -9,11 +9,13 @@ orbs:
 jobs:
   install_test:
     executor: node/default
+    working_directory: ~/mini-minecraft-app/src
     steps:
+        - checkout
         - run: 
             command: npm install
         - run:
-            command: npm test
+            command: npm run test
 
 
 # Invoke jobs via workflows
