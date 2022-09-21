@@ -12,9 +12,7 @@ jobs:
     steps:
         - checkout
         - run: 
-            command: npm install && npm start
-        - run:
-            command: npm test
+            command: npm install && npm start && npm test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
