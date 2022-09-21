@@ -18,7 +18,11 @@ jobs:
         - run:
             command: ls -la
         - run:
-            command: cd src && npm run test
+            command: cd src
+        - run:
+            command: ls -la    
+        - run:
+            command: npm run test
 
 
 # Invoke jobs via workflows
