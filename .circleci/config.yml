@@ -13,7 +13,7 @@ jobs:
         - run: 
             command: npm install
         - run:
-            command: npm test a
+            command: npm run test /src/App.test.js
         - run:
             command: q
 
